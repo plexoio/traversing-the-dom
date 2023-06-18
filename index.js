@@ -8,8 +8,8 @@
  * 
  * first('') // of the same kind "''"
  * last('') // of the same kind "''"
- * siblings('') // of the same scope "''", could be specified one of many
- * filter('//matching_key') // of the same kind "''" remove those not matching & apply criteria .chaining if matching
+ * siblings('') // of the same scope "''", can specify one of many
+ * filter('//matching_key') // of the same kind "''" remove those not matching & apply criteria otherwise
     $('p').filter('.intro').addClass('highlight'); // all 'p' with '.intro' class
  */
 
